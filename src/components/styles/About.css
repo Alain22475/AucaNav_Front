@@ -1,0 +1,54 @@
+.about-container {
+    padding: 20px;
+    max-width: 1500px; /* Limit the width */
+    margin: 0 auto; /* Center the content */
+    background-color: rgb(255, 255, 255); /* Semi-transparent background */
+    border-radius: 0px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.about-container h2 {
+    color: #000000; /* Main color */
+    margin-bottom: 30px;
+    margin-left: 350px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.about-container h3 {
+    margin-top: 20px; /* Space above */
+    margin-bottom: 20px;
+    color: #2f3f80; /* Main color */
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.about-container p, .about-container ul {
+    line-height: 1.6; /* Improved readability */
+    width: 80%;
+    margin-left: 130px;
+}
+
+.document-list {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 20px; /* Space between items */
+    margin-left: 130px; /* Align with other content */
+    width: 80%; /* Adjust width to fit the layout */
+  }
+  
+  .document-item {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Space between icon and link */
+    margin-bottom: -10px;
+  }
+  
+  .pdf-icon {
+    color: #d32f2f;
+    font-size: 20px;
+  }
+  
+  
+  
+

@@ -1,0 +1,190 @@
+/* General Styles for the Page Container */
+.page-container {
+    padding: 20px;
+    max-width: 1000px; /* Adjusted width for better layout */
+    margin: auto;
+}
+
+/* Styles for the Profile Section */
+.profile-section {
+    margin-bottom: 20px;
+}
+
+/* Styles for the Profile Picture */
+.profile-picture {
+    margin-bottom: 20px;
+}
+
+/* Styles for File Upload */
+.custom-file-upload {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Personal Info Styles */
+.personal-info label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Styles for Orientation Tasks Section */
+.profile-orientation-tasks {
+    margin: 20px 10px; /* Adds vertical spacing around the section */
+    padding: 15px; /* Adds padding within the section */
+    border-radius: 16px; /* Rounds the corners of the section */
+    background-color: #f0f4ff00; /* Light background color for contrast */
+}
+
+/* Styles for Orientation Tasks Header */
+.profile-orientation-tasks h2 {
+    font-size: 33px; /* Font size for the header */
+    color: #1c69c1; /* Text color for the header */
+    margin-bottom: 25px; /* Space below the header */
+    text-align: center; /* Center the header text */
+    font-weight: bold; /* Bold header text */
+    margin-top: 0px;
+}
+
+/* Styles for Task List */
+.task-list {
+    display: flex; /* Use flexbox to arrange tasks in a row */
+    flex-wrap: wrap; /* Allow wrapping to the next line if needed */
+    justify-content: space-around; /* Evenly distribute space between tasks */
+    margin-bottom: 16px;
+    color: rgb(0, 0, 0);
+}
+
+p10 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-left: 405px;
+    line-height: 1.8;
+    color: #000000;
+    text-align: center; /* Keep paragraphs left-aligned */
+}
+
+/* Styles for Each Task Item */
+.profile-task-item {
+    display: flex; /* Flexbox for aligning checkbox and label */
+    align-items: center; /* Center items vertically */
+    margin-top: 50px;
+    background-color: #062db896; /* Background for each task item */
+    color: rgb(0, 0, 0);
+    line-height: 22px;
+    font-weight: 600;
+    margin: 5px; /* Space between task items */
+    padding: 15px 15px 15px 15px; /* Padding for better spacing */
+    border-radius: 15px; /* Rounded corners */
+    transition: transform 0.2s, box-shadow 0.2s; /* Transition for hover effects */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflowing text */
+    text-overflow: ellipsis; /* Add ellipsis for overflowing text */
+}
+
+/* Hover Effect for Task Items */
+.profile-task-item:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+/* Styles for Task Checkbox */
+.profile-task-item input[type="checkbox"] {
+    margin-right: 10px; /* Space between checkbox and label */
+}
+
+/* Styles for the Save Changes Button */
+.profile-save-button {
+    padding: 10px 15px;
+    margin-left: 500px;
+    background-color: #28a745; /* Green background for button */
+    width: 15%;
+    color: white; /* White text color */
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    border: none; /* No border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 10px; /* Space above the button */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+/* Hover Effect for Save Changes Button */
+.profile-save-button:hover {
+    background-color: #167029; /* Darker green on hover */
+}
+
+.save-profile-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 0px;
+    margin-top: 10px;
+    margin-left: 405px;
+    transition: background-color 0.3s ease;
+}
+
+.save-profile-btn:hover {
+    background-color: #1071bc;
+    font-weight: 500;
+}
+
+.progress-circle-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: conic-gradient(
+        var(--progress-color) 0% 0%,
+        lightgray 0% 100%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.progress-text {
+    position: absolute;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+}
+
+.progress-bar {
+    height: 25px;
+    margin-bottom: 25px;
+    transition: width 0.3s ease-in-out;
+}
+
+/* Different colors based on progress */
+.progress-red {
+    --progress-color: #fabeb7;
+}
+
+.progress-orange {
+    --progress-color: #f97a0c;
+}
+
+.progress-yellow {
+    --progress-color: #e8ba02;
+}
+
+.progress-green {
+    --progress-color: #05d05a;
+}
+
+.progress-blue {
+    --progress-color: #3498db;
+    color: white;
+}

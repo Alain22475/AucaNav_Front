@@ -1,0 +1,101 @@
+/* Global styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full-page background styling */
+.home-container {
+    background-image: url('/src/images/auca_bg1.jpg'); /* Background image */
+    background-size: cover; /* Background image covers the entire container */
+    background-position: center; /* Main background is centered */
+    background-repeat: no-repeat; /* Do not repeat background image */
+    min-height: 84vh;
+    display: flex;
+    flex-direction: column; /* Stacks items vertically */
+    align-items: flex-start; /* Aligns content to the left */
+    padding: 20px; /* Adds padding around the container */
+}
+
+/* Main title styling */
+.main-title {
+    color: #2a49c5; /* Or any color you prefer */
+    font-size: 2.5rem; /* Adjust as needed */
+    margin-bottom: 20px; /* Spacing between title and content */
+    margin-left: 350px;
+}
+
+/* Content styling */
+.content {
+    background-color: rgba(255, 255, 255, 0.752); /* Semi-transparent background */
+    margin-top: 100px;
+    margin-left: -20px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 30px;
+    border-top-right-radius: 105px; /* Change to your desired radius */
+    max-width: 100%; /* Fills 70% of the width */
+    width: 80%; /* Ensures it stays responsive */
+    position: relative; /* Allows child elements to be positioned relative to this */
+}
+
+/* Content title styling */
+.content-title {
+    font-size: 2rem; /* Adjust title size */
+    font-weight: 700;
+    margin-bottom: 10px; /* Space below the title */
+    color: #2a49c5; /* Customize the color */
+}
+
+/* Content description styling */
+.content-description {
+    font-size: 1.1rem; /* Adjust text size */
+    font-weight: 300;
+    line-height: 1.5; /* Improve readability */
+    margin-bottom: 25px; /* Space below the paragraph */
+}
+
+/* Button group styling */
+.button-group {
+    margin-top: 30px;
+    display: flex;
+    gap: 22px;
+}
+
+/* Button styling */
+.path-button {
+    background-color: #2a49c5;
+    width: 170px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    transition: background-color 0.3s;
+}
+
+.path-button:hover {
+    background-color: rgb(249, 180, 21);
+    color: #000000;
+    font-weight: 600;
+}
+
+/* Image container styling */
+.image-container {
+    position: absolute; /* Position the image container absolutely */
+    right: 150px; /* Align to the right */
+    bottom: 100px; /* Adjust distance from the bottom */
+    width: 200px; /* Set the width of the container */
+    height: 200px; /* Set the height of the container */
+    border-radius: 200px;
+    background-image: url('/src/images/auca_logo.jpg'); /* Path to your logo */
+    background-size: contain; /* Ensure the image fits within the container */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    z-index: 10; /* Ensure it's above other content */
+}

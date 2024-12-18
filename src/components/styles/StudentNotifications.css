@@ -1,0 +1,123 @@
+/* CSS Variables for easy adjustments */
+:root {
+  --card-bg: rgba(110, 110, 110, 0.9);
+  --font-color: #ffffff;
+  --info-bg: rgba(24, 112, 170, 0.5);
+  --success-bg: rgba(19, 160, 78, 0.7);
+  --warning-bg: rgba(243, 22, 18, 0.6);
+  --error-bg: rgba(231, 76, 60, 0.8);
+  --font-family: 'Poppins', sans-serif;
+}
+
+/* Notifications Container */
+.notifications-container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: transparent;
+  border-radius: 8px;
+  font-family: var(--font-family);
+}
+
+/* Heading Styles */
+.notifications-container h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+/* Notification List */
+.notification-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Notification Card Styles */
+.notification-card {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  background-color: var(--card-bg);
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  flex-wrap: wrap;
+}
+
+.notification-card:hover {
+  transform: scale(1.02);
+}
+
+/* Icon Styles */
+.notification-icon {
+  font-size: 1.5rem;
+  margin-right: 15px;
+  color: var(--font-color);
+}
+
+/* Content Section */
+.notification-content {
+  flex: 1;
+}
+
+/* Title Styles */
+.notification-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 2px; /* Space below title */
+  color: var(--font-color);
+}
+
+/* Message Styles */
+.notification-message {
+  font-size: 0.9rem;
+  margin: 0;
+  color: var(--font-color);
+}
+
+/* Time Styles */
+.notification-time {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--font-color);
+  margin-top: 2px;
+  opacity: 0.8;
+}
+
+/* Notification Type Styles */
+.notification-card.info {
+  background-color: var(--info-bg);
+  border-left: 5px solid #3498db;
+}
+
+.notification-card.success {
+  background-color: var(--success-bg);
+  border-left: 5px solid #0d823e;
+}
+
+.notification-card.warning {
+  background-color: var(--warning-bg);
+  border-left: 5px solid #ec0404;
+}
+
+.notification-card.error {
+  background-color: var(--error-bg);
+  border-left: 5px solid #e74c3c;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .notification-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .notification-icon {
+    margin-bottom: 10px;
+  }
+}

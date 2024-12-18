@@ -1,0 +1,118 @@
+/* General Service Section Spacing */
+.page-container {
+    width: 1000px;
+}
+
+.service-section {
+    margin-bottom: 20px; /* Space between service sections */
+    width: 600px;
+}
+
+/* Health Services */
+.health-title {
+    color: #2c3e50;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 5px; /* Space between title and content */
+}
+
+.health-phone {
+    margin-left: 5px;
+    color: #0151a2;
+    font-weight: 500;
+}
+
+.health-email {
+    margin-left: 5px;
+    color: #0151a2;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+/* Evangelism Services */
+.evangelism-title {
+    margin-top: 12px;
+    margin-bottom: 5px; /* Consistent spacing with other titles */
+    color: #2c3e50;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.evangelism-phone {
+    margin-left: 5px;
+    color: #0151a2;
+    font-weight: 500;
+}
+
+.evangelism-email {
+    margin-left: 5px;
+    color: #0151a2;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+/* Therapist Services */
+.therapist-title {
+    margin-top: 12px;
+    margin-bottom: 5px;
+    color: #2c3e50;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.therapist-phone {
+    margin-left: 5px;
+    color: #0151a2;
+    font-weight: 500;
+}
+
+.therapist-email {
+    margin-left: 5px;
+    color: #0151a2;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+/* Social Services */
+.social-title {
+    margin-top: 12px;
+    margin-bottom: 5px;
+    color: #2c3e50;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.social-phone {
+    margin-left: 5px;
+    color: #0151a2;
+    font-weight: 500;
+}
+
+.social-email {
+    margin-left: 5px;
+    color: #0151a2;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+/* Mortgage Services */
+.mortgage-title {
+    margin-top: 12px;
+    margin-bottom: 5px;
+    color: #2c3e50;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.mortgage-phone {
+    margin-left: 5px;
+    color: #0151a2;
+    font-weight: 500;
+}
+
+.mortgage-email {
+    margin-left: 5px;
+    color: #0151a2;
+    font-weight: 600;
+    text-decoration: underline;
+}

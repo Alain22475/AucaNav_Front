@@ -1,0 +1,109 @@
+/* General container styling */
+.events-page-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Search input styling */
+.event-search {
+  margin: 20px auto;
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Events list as flexbox */
+.events-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Event card styling */
+.event-card {
+  background-color: #535f77;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+  min-width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: left;
+}
+
+/* Hover effect */
+.event-card:hover {
+  background-color: #273653;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Header styling inside event cards */
+.event-card h8 {
+  font-size: 21px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 10px 0;
+  margin-bottom: 25px;
+}
+
+/* Paragraph styling for event details */
+.event-card p {
+  font-size: 15px;
+  font-weight: 200;
+  color: #f0f0f0;
+  margin: 5px 0;
+  line-height: 1.5;
+}
+
+/* Bold text inside paragraphs (e.g., 'Date:' and 'Location:') */
+.event-card p strong {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* Buttons container */
+.event-card-buttons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Individual button styles */
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+/* Register button */
+.register-btn {
+  background-color: #3498db;
+  color: white;
+  font-weight: 400;
+}
+
+.register-btn:hover {
+  background-color: #fac30c;
+  border-radius: 14px;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+}
+
+/* No events message */
+.no-events {
+  color: #7f8c8d;
+  font-size: 18px;
+  margin-top: 50px;
+}

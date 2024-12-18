@@ -1,0 +1,126 @@
+/* General Container Styling */
+.manage-library-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f900;
+    border-radius: 8px;
+}
+
+/* Heading */
+.manage-library-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Search Input */
+.search-input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+}
+
+/* Form Styling */
+.library-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.library-form input,
+.library-form select {
+    color: black;
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.library-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.cancel-button {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Books Table */
+.books-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.books-table thead tr {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.students-table th {
+    background-color: #95a9fa;
+}
+
+.books-table th,
+.books-table td {
+    color: rgb(0, 0, 0);
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.books-table th {
+    color: rgb(0, 0, 0);
+}
+
+.books-table td {
+    background-color: #6ea8d899;
+    color: rgb(0, 0, 0);
+}
+
+.books-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Action Buttons */
+.edit-button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* File Link */
+.books-table a {
+    color: #06599c;
+    text-decoration: none;
+}
+
+.books-table a:hover {
+    text-decoration: underline;
+}

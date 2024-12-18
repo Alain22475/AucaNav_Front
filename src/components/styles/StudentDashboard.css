@@ -1,0 +1,86 @@
+/* src/styles/StudentDashboard.css */
+.dashboard-container {
+  display: flex;
+  height: 60vh;
+  background-image: url('/src/images/auca_bg1.jpg'); /* Background image */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Keeps the background fixed during scrolling */
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.sidebar {
+  width: 250px;
+  height: 668px; /* Ensure the sidebar takes the full height of the container */
+  background-color: rgba(2, 25, 129, 0.692); /* Transparent blue background */
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-list li {
+  margin: 15px 0; /* Space between list items */
+}
+
+.sidebar-list a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s;
+}
+
+.sidebar-list a:hover {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffb300; /* Change color on hover */
+}
+
+.icon {
+  margin-right: 10px;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.dashboard-content {
+  width: 1200px;
+  height: 668px;
+  padding: 20px; /* Added padding for better spacing */
+  background: rgb(255, 255, 255); /* Light overlay for readability */
+  border-radius: 0%; /* Slightly rounded corners */
+  margin: 0px; /* Added margin around the content */
+  overflow-y: auto; /* Allow scrolling if content overflows */
+}
+
+.logout-container {
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 10px;
+  margin-bottom: -7px; /* Adjust to fit layout */
+}
+
+.logout-container button {
+  background: none; /* Remove default button styling */
+  border: none; /* Remove border */
+  color: #ffffff; /* Text color */
+  font-size: 18px;
+  cursor: pointer; /* Change cursor to pointer on hover */
+  display: flex;
+  align-items: center;
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.logout-container button:hover {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff; /* Change color on hover */
+}
